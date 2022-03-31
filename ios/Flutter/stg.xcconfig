@@ -1,0 +1,12 @@
+//
+//  stg.xcconfig
+//  Runner
+//
+//  Created by 内芝弘尭 on 2022/03/12.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+FLAVOR=stg
+APP_ID_SUFFIX=.stg
+APP_NAME_SUFFIX=.stg

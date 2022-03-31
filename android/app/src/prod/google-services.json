@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "30328336278",
+    "project_id": "hash-app-prod",
+    "storage_bucket": "hash-app-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30328336278:android:e8eb52c68893c712bfb7b7",
+        "android_client_info": {
+          "package_name": "com.hash.hash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30328336278-nnsseghk4n02osgjvcj3ps3e7on90374.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFacsltDcJHYgkrxBosDZTs5vaV6LoQ3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30328336278-nnsseghk4n02osgjvcj3ps3e7on90374.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30328336278-tlq7c2actmbjblp7h0a2rt3dbih04eqt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hash.hash"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "585353614526",
+    "project_id": "hash-app-dev",
+    "storage_bucket": "hash-app-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585353614526:android:ff055aa600e42e1b253aef",
+        "android_client_info": {
+          "package_name": "com.hash.hash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585353614526-h2jg484p0a3fal7en4m0icdlu3it0hru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIpIGIn23Pv5BvJbLuM0EQ4bagDu_DeI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585353614526-h2jg484p0a3fal7en4m0icdlu3it0hru.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "585353614526-i6nhanb3mj8umgaqt18n54gescpenqff.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hash.hash"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
