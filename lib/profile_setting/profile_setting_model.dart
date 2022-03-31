@@ -12,9 +12,9 @@ class ProfileSettingModel extends ChangeNotifier {
       this.bio,
       this.photoUrl,
       );
-  String? nickname;
-  String? bio;
-  String? photoUrl;
+  String nickname;
+  String bio;
+  String photoUrl;
   File? imageFile;
 
   final picker = ImagePicker();
@@ -24,7 +24,6 @@ class ProfileSettingModel extends ChangeNotifier {
       final uid = FirebaseAuth.instance.currentUser!.uid;
       final doc = FirebaseFirestore.instance.collection('users').doc(uid);
 
-      String? photoUrl;
       if (imageFile != null) {
         // storageにアップロード
         final task = await FirebaseStorage.instance

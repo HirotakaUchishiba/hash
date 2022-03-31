@@ -43,9 +43,9 @@ class ProfileSettingPage extends StatelessWidget {
                 child: Column(children: [
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: <Widget>[Text('プロフィール画像')],
+                    children: <Widget>[const Text('プロフィール画像')],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 30,
                   ),
                   ClipRRect(
@@ -69,12 +69,12 @@ class ProfileSettingPage extends StatelessWidget {
                       },
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 50,
                   ),
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: <Widget>[Container(child: Text('名前'))],
+                    children: <Widget>[Container(child: const Text('名前'))],
                   ),
                   TextFormField(
                     initialValue: user.nickname,
@@ -82,12 +82,12 @@ class ProfileSettingPage extends StatelessWidget {
                       model.nickname = text;
                     },
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 16,
                   ),
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: <Widget>[Container(child: Text('自己紹介'))],
+                    children: <Widget>[Container(child: const Text('自己紹介'))],
                   ),
                   TextFormField(
                     initialValue: user.bio,
@@ -95,7 +95,7 @@ class ProfileSettingPage extends StatelessWidget {
                       model.bio = text;
                     },
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 16,
                   ),
                   Padding(
@@ -106,7 +106,7 @@ class ProfileSettingPage extends StatelessWidget {
                         style: OutlinedButton.styleFrom(
                           primary: Colors.black,
                           backgroundColor: Colors.amber,
-                          padding: EdgeInsets.all(15),
+                          padding: const EdgeInsets.all(15),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20.0),
                           ),
@@ -114,7 +114,7 @@ class ProfileSettingPage extends StatelessWidget {
                         onPressed: () async {
                           _profileEdit();
                         },
-                        child: Text(
+                        child: const Text(
                           '編集する',
                           style: TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 20),
