@@ -1,5 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_device_type/flutter_device_type.dart';
 import 'package:hash/domain/club.dart';
 
 class CulturalClubDetailPage extends StatelessWidget {
@@ -29,16 +30,35 @@ class CulturalClubDetailPage extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Container(
-            child: culturalClub.imageURL != null
-                ? SizedBox(
-              width: double.infinity,
-              height: 300,
-              child: CachedNetworkImage(
-                imageUrl: culturalClub.imageURL!,
-                fit: BoxFit.fill,
-              ),
-            )
-                : null,
+              child: Device.get().isTablet
+                  ?
+              Column(
+                children: [
+                  SizedBox(
+                    height: 30,
+                  ),
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(30.0),
+                    child: SizedBox(
+                      height: 300,
+                      width: 300,
+                      child: CachedNetworkImage(
+                        imageUrl: culturalClub.imageURL!,
+                        fit: BoxFit.fill,
+                      ),
+                    ),
+                  ),
+                ],
+              )
+                  :
+              SizedBox(
+                width: double.infinity,
+                height: 300,
+                child: CachedNetworkImage(
+                  imageUrl: culturalClub.imageURL!,
+                  fit: BoxFit.fill,
+                ),
+              )
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),

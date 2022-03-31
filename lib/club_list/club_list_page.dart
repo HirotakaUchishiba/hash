@@ -363,99 +363,99 @@ class ClubListPage extends StatelessWidget {
                   return Expanded(
                     child: TabBarView(children: [
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: athleticClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: culturalClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: academicStudyClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: singlePartClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: otherFieldClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: baseballClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: soccerClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: futsalClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: tennisClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: badmintonClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: basketballClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: volleyballClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: allRoundClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: danceClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: martialArtsClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: marinSportsClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: winterSportsClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: otherSportsClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: outdoorClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: lightMusicClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: otherMusicClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: artClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: socialStudyClubWidgets,
                       ),
                       GridView.count(
-                        crossAxisCount: Device.get().isTablet?3:2,
+                        crossAxisCount: Device.get().isTablet?4:2,
                         children: volunteerClubWidgets,
                       ),
                     ]),
